@@ -7,6 +7,7 @@ while active:
     if age == 'quit':
         print("Thanks You.")
         active = False
+        break
     age = int(age)
     if age <= 3:
         print("The Ticket cost 10$.")
