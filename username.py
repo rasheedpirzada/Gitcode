@@ -7,4 +7,5 @@ while new_users:
         break
     else:
         print(new_users.lower() + " is available.")
+        print("Press Enter to continue: ")
         break
